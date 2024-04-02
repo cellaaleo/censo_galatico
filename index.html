@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Censo Galático</title>
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/planets_list.css">
+    <link rel="stylesheet" href="/styles/planets_info.css">
+    <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h3>STAR WARS</h3>
+        <h1>
+            <span><i class="fa fa-jedi"></i></span> 
+            Censo Galatico 
+            <span><i class="fa fa-jedi"></i></span>
+        </h1>
+
+        <div class="line"></div>
+    </header>
+
+    <main>
+        <div id="planets_list"></div>
+
+        <div id="planet_info">
+            <h4>Selecione um planeta acima para saber mais ou busque no campo abaixo:</h4>
+    
+            <div class="search">
+                <span><i class="fa fa-search"></i></span>
+                <input type="text" id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Digite o nome do planeta" value="">
+            </div>
+               
+            <div id="result" class="hidden"></div>
+            
+        </div>
+    </main>
+    
+</body>
+</html>

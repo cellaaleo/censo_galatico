@@ -1,0 +1,32 @@
+main {
+    margin: 10px 100px;
+}
+
+#planets_list {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button {
+    font-size: 0.85rem;
+    color: var(--main-bg-color);
+    font-weight: 800;
+    margin: 2px;
+    background: radial-gradient(var(--button-color) 20%, var(--main-bg-color) 80%);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: var(--main-bg-color);
+    color: var(--button-color)
+}
+
+.hidden {
+    display: none;
+}

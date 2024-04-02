@@ -1,0 +1,82 @@
+#planet_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    background-color: var(--box-bg-color);
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 364px;
+    margin-left: 8px;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.search .fa-search {
+    color: var(--search-color);
+    margin-left: 12px;
+}
+
+.search input {
+    font-weight: 400;
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: var(--text-color);
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    white-space: nowrap; 
+    outline: none;
+    width: 100%;
+    height: 48px;
+}
+
+.search:hover {
+    background-color: #424242;
+}
+
+.search:focus-within {
+    box-shadow: 0 0 0 2px var(--search-color);
+}
+
+#result {
+    margin: 20px 0;
+    padding: 0 50px;
+    background-color: var(--box-bg-color);
+    border-radius: 10px;
+    font-size: 0.85rem;
+    color: var(--text-color);
+    width: 600px;
+}
+
+#result p strong {
+    color: var(--main-color);
+    font-size: 0.95rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: var(--table-bg-color);
+}
+
+td, th {
+    border: thin solid var(--main-color);
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+}
+
+#table-title {
+    background-color: var(--main-color);
+    color: var(--table-bg-color);
+}
+
+th {
+    color: var(--main-color);
+}
+
